@@ -1,0 +1,63 @@
+/* タブレットレイアウト */
+
+@media (max-width: 1000px) {
+.top {
+  background-size: contain;
+  height: 700px;
+}
+.name h2 {
+  margin: 0 auto;
+  line-height: 600px;
+}
+.form {
+  padding-left:100px;
+}
+
+}
+
+
+/* スマホレイアウト */
+
+@media (max-width: 670px) {
+  .top {
+    height: 500px;
+    padding-bottom: 50px;
+  }
+  .top h2 {
+    line-height: 390px;
+  }
+  .about {
+    padding: 50px 0;
+    width: 100%;
+    display: inline-block;
+  }
+  .logo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo img {
+    width: 300px;
+    border-radius: 50px;
+  }
+  .text {
+    text-align: center;
+  }
+  .about h2 {
+    text-align: center;
+    margin: 60px;
+  }
+  .skills p {
+    font-size: 18px;
+  }
+  .skills h2 {
+    margin-bottom: 80px;
+  }
+  .skills {
+    padding-bottom: 80px;
+  }
+
+
+
+
+
+}
